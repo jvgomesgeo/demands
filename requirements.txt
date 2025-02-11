@@ -1,6 +1,4 @@
-streamlit
-geopandas 
-pandas 
-pydeck 
+streamlit 
+pandas  
 numpy 
 plotly
