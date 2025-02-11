@@ -29,6 +29,8 @@ mes = st.sidebar.selectbox("Selecione o Mês", dados['mes'].unique())
 
 #linkar a sidebar para ele puxar o df referente ao valor da select box
 df_filter = dados[dados["mes"] == mes]
+df_filter['longitude'] = df_filter['longitude'].astype(float)
+df_filter['latitude'] = df_filter['latitude'].astype(float)
 
 
 
