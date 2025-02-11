@@ -4,4 +4,4 @@ pandas
 os
 pydeck 
 numpy 
-plotly.express 
+plotly
