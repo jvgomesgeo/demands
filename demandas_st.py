@@ -1,8 +1,6 @@
 import streamlit as st
-import geopandas as gpd
 import pandas as pd
 import os
-import pydeck as pdk
 import numpy as np
 import plotly.express as px
 
