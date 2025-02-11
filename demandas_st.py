@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 import numpy as np
+import pydeck as pdk
 import plotly.express as px
 
 #BOTANDO A PAGINA WIDE
