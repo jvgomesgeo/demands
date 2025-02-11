@@ -1,7 +1,6 @@
 streamlit
 geopandas 
 pandas 
-os
 pydeck 
 numpy 
 plotly
