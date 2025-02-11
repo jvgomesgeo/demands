@@ -12,8 +12,8 @@ path = os.getcwd() + '/df_demandas_tratado_teste.csv'
 
 dados = pd.read_csv(path, sep= ';', decimal = ',')
 dados = dados.rename(columns= {'LONG': 'longitude', 'LAT': 'latitude'})
-dados['longitude'] = pd.to_numeric(dados['longitude'], errors='coerce', downcast='float')
-dados['latitude'] = pd.to_numeric(dados['latitude'], errors='coerce',downcast='float')
+dados['longitude'] = pd.to_numeric(dados['longitude'], errors='coerce').astype(float)
+dados['latitude'] = pd.to_numeric(dados['latitude'], errors='coerce').astype(float)
 
 
 dados = dados.dropna(subset=['longitude', 'latitude'])
